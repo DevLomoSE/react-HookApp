@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useState } from "react/cjs/react.development";
-import "../../styles/effects.css";
+import "../../styles/generals.css";
 import { Message } from "./Message";
 
 export const SimpleForm = () => {

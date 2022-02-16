@@ -1,6 +1,6 @@
 import React from "react";
 import { useForm } from "../../hooks/useForm";
-import "../../styles/effects.css";
+import "../../styles/generals.css";
 
 export const FormWithCustomHook = () => {
   const [formValues, handleInputChange] = useForm({
