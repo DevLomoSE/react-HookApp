@@ -10,11 +10,12 @@ import './styles/index.css';
 // import { FocusScreen } from './components/04-useRef/FocusScreen';
 // import { RealExampleRef } from './components/04-useRef/RealExampleRef';
 // import { Layout } from './components/05-useLayoutEffect/Layout';
-import { Memorize } from './components/06-memos/Memorize';
+// import { Memorize } from './components/06-memos/Memorize';
+import { MemoHook } from './components/06-memos/MemoHook';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Memorize />
+    <MemoHook />
   </React.StrictMode>,
   document.getElementById("root")
 );
