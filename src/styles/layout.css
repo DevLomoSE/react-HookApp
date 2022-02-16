@@ -1,0 +1,8 @@
+body {
+    padding: 70px;
+    background-color: #065F46;
+}
+
+.blockquote{
+    display: flex;
+}
