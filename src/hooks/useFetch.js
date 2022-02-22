@@ -28,6 +28,13 @@ export const useFetch = (url) => {
             data,
           });
         }
+      })
+      .catch( (err) => {
+        setState({
+          loading: false,
+          error: err,
+          data: null,
+        });
       });
   }, [url]);
 
